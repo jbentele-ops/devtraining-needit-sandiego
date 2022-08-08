@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Monitoring Configuration" max_length="40" name="x_58872_needit_monitoring_configuration" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Name" max_length="32" name="name" reference="cmdb_ci" type="reference"/>
+        <element label="Password" max_length="255" name="password" type="password2"/>
+        <element label="Username" max_length="40" name="username" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
